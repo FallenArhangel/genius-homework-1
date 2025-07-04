@@ -1,0 +1,90 @@
+:root {
+  --button-color: #2b7fff;
+  --logo-color: #2b7fff;
+  --button-active-color: rgb(240, 248, 255);
+  --text-color: rgb(240, 248, 255);
+  --active-text-color: rgb(0, 0, 0);
+  --background-color: #011f4a;
+  --comment-text: #4a4a4a;
+}
+
+* {
+  margin: 3px;
+  padding: 2px;
+  font-style: normal;
+  font-family: 'Roboto';
+}
+
+.comment {
+  color: var(--comment-text);
+}
+
+header {
+  margin-bottom: 4%;
+}
+
+section {
+  padding: 5%;
+}
+
+h2 {
+  font-family: 'Play';
+}
+
+.button {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 32px;
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 32px;
+}
+button:active {
+  background-color: var(--button-active-color);
+  color: var(--active-text-color);
+}
+.social li {
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+.on_us img {
+  width: 343px;
+  height: 328px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article li {
+  float: left;
+}
+
+footer {
+  background-color: var(--background-color);
+}
+
+footer a {
+  color: var(--text-color);
+}
+
+.beautyzone {
+  color: var(--logo-color);
+}
+
+.beautyzone_size {
+  color: var(--logo-color);
+  font-family: 'Play';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 140px;
+}
+
+.procedur li img {
+  width: 344px;
+  height: 456px;
+}
