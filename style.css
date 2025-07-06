@@ -84,6 +84,10 @@ footer a {
   font-size: 140px;
 }
 
+.procedur {
+  display: flex;
+}
+
 .procedur li img {
   width: 344px;
   height: 456px;
