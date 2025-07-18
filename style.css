@@ -60,6 +60,14 @@ a {
   text-decoration: none;
 }
 
+.link li a:active {
+  color: var(--logo-color);
+}
+
+.link li a:visited {
+  color: var(--active-text-color);
+}
+
 .article li {
   float: left;
 }
